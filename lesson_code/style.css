@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.div {
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+    margin: 20px 0;
+}
+
+.div:hover {
+    background-color: blue;
+
+}
+
+.div:focus {
+    background-color: red;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    /* transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s; */
+    transition: width 2s;
+
+}
+
+.btn:hover {
+    width: 70px;
+    background-color: red;
+}
+
+.btn:focus {
+    background-color: blue;
+    width: 100px;
+}
+
+.div:active {
+    background-color: black;
+}
