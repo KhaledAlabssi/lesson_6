@@ -65,3 +65,47 @@ div.homework-5 {
     background-color: yellowgreen;
     position: relative;
 }
+
+div .linear {
+    animation: run 6s linear infinite;
+}
+
+div .ease {
+    animation: run 6s ease infinite;
+}
+
+div .ease-in {
+    animation: run 6s ease-in infinite;
+}
+
+div .ease-out {
+    animation: run 6s ease-out infinite;
+}
+
+div .ease-in-out {
+    animation: run 6s ease-in-out infinite;
+}
+
+div .cubic-bezier {
+    animation: run 6s cubic-bezier(1, -0.65, .16, 1.67) infinite;
+}
+
+
+
+@keyframes run {
+    0% {
+
+        left: 0px;
+    }
+
+    50% {
+
+        left: 780px;
+        background-color: orangered;
+    }
+
+    100% {
+
+        left: 0px;
+    }
+}
